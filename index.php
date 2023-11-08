@@ -18,3 +18,8 @@ $result = json_decode($result, true);
 // echos the accessToken extracted from the result 
 echo $accessToken = $result['access_token'];
 curl_close($curl);
+
+// git init
+// git add .
+// got commit -m "my first files"
+// git push -u origin main
